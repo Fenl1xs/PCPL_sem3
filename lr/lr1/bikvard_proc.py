@@ -48,9 +48,9 @@ def main():
     elif len_roots==1:
         print('Один корень: "{}"'.format(roots[0]))
     elif len_roots==2:
-            print('Два кореня: "{}","{}"'.format(roots[0],roots[1]))
+            print('Два корня: "{}","{}"'.format(roots[0],roots[1]))
     elif len_roots==3:
-            print('Три кореня:"{}","{}", "{}"'.format(roots[0],roots[1],roots[2]))
+            print('Три корня:"{}","{}", "{}"'.format(roots[0],roots[1],roots[2]))
     else:
         print('Четыре корня:"{}","{}","{}", "{}"'.format(roots[0],roots[1],roots[2],roots[3]))
 

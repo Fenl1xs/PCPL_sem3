@@ -56,9 +56,9 @@ class BiquardraticRoots:
         elif self.num_roots==1:
             print('Один корень: "{}"'.format(self.roots_list[0]))
         elif self.num_roots==2:
-            print('Два кореня: "{}","{}"'.format(self.roots_list[0],self.roots_list[1]))
+            print('Два корня: "{}","{}"'.format(self.roots_list[0],self.roots_list[1]))
         elif self.num_roots==3:
-            print('Три кореня:"{}","{}", "{}"'.format(self.roots_list[0],[1],self.roots_list[2]))
+            print('Три корня:"{}","{}", "{}"'.format(self.roots_list[0],[1],self.roots_list[2]))
         else:
             print('Четыре корня:"{}","{}","{}", "{}"'.format(self.roots_list[0],self.roots_list[1],self.roots_list[2],self.roots_list[3]))
 def main():
