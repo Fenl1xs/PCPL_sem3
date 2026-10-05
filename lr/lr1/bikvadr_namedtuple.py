@@ -66,7 +66,7 @@ def print_roots(result):
             print('Корней нет')
         case BiquadraticResult.OneRoot(root):
             print('Oдин корень: "{}"'.format(root))
-        case BiquadraticResult.ThreeRoots(root1,root2):
+        case BiquadraticResult.TwoRoots(root1,root2):
             print('Два корня: "{}","{}"'.format(root1,root2))
         case BiquadraticResult.ThreeRoots(root1,root2,root3):
             print('Три корня: "{}","{}","{}"'.format(root1,root2,root3))
